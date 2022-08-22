@@ -1,0 +1,24 @@
+.layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content 1fr min-content;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header {
+  display: grid;
+  grid-column: 1 / 3;
+}
+.content {
+  display: grid;
+  min-height: 280px;
+  height: 100%;
+  padding: 24px;
+  background: #fff;
+}
+
+.footer {
+  display: grid;
+  grid-column: 1 / 3;
+}
