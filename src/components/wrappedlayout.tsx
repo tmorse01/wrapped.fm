@@ -16,7 +16,7 @@ export default class WrappedLayout extends React.Component {
         <Header className="header">
           <WrappedHeader />
         </Header>
-        <Layout>
+        <Layout className="center">
           <Sider className="sider">
             <WrappedSider />
           </Sider>
@@ -24,7 +24,9 @@ export default class WrappedLayout extends React.Component {
             <WrappedContent />
           </Content>
         </Layout>
-        <Footer className="footer">Footer</Footer>
+        <Footer className="footer">
+          wrapped.fm created by tmorse01, ThomasJazz and Noctsol on github
+        </Footer>
       </Layout>
     );
   }

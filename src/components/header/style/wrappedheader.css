@@ -2,9 +2,14 @@
   color: white;
   font-family: Arial;
   font-size: xx-large;
+  width: min-content;
 }
 
 .wrapped-header {
   display: grid;
-  grid-template-columns: 1fr min-content;
+  grid-template-columns: min-content 1fr min-content;
+  justify-items: center;
+  box-shadow: 0 2px 8px grey;
+  height: 64px;
+  z-index: 10;
 }

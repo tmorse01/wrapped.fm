@@ -1,11 +1,12 @@
 import React from "react";
-import { Menu } from "antd";
+import { Divider, Menu } from "antd";
 import "./style/wrappedsider.css";
 
 const WrappedSider: React.FC = () => {
   return (
-    <div className="wrappedsider">
+    <div className="wrapped-sider">
       <h2 className="wrapped-sider-header">sider</h2>
+      <Divider />
       <Menu
         mode="inline"
         defaultSelectedKeys={[""]}

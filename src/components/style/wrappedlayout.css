@@ -9,6 +9,8 @@
 .header {
   display: grid;
   grid-column: 1 / 3;
+  height: 64px;
+  padding: 0 !important;
 }
 .content {
   display: grid;
@@ -18,7 +20,13 @@
   background: #fff;
 }
 
+.center {
+  margin: 12px;
+  box-shadow: 0 2px 8px grey;
+}
+
 .footer {
   display: grid;
   grid-column: 1 / 3;
+  justify-items: center;
 }

@@ -1,9 +1,13 @@
-import React from "react";
 import { Button, Checkbox, Form, Input } from "antd";
 
-const LoginForm: React.FC = () => {
+type LoginFormProps = {
+  handleOk: () => void;
+};
+
+const LoginForm = ({ handleOk }: LoginFormProps) => {
   const onFinish = (values: any) => {
     console.log("Success:", values);
+    handleOk();
   };
 
   const onFinishFailed = (errorInfo: any) => {
