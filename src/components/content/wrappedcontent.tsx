@@ -1,6 +1,6 @@
 import React from "react";
 import {} from "antd";
-import "../css/wrappedheader.css";
+import "./style/wrappedcontent.css";
 
 const WrappedContent: React.FC = () => {
   return <div className="wrapped-content">Content</div>;

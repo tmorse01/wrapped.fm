@@ -1,8 +1,8 @@
 import React from "react";
 import { Menu } from "antd";
-import "../css/wrappedsider.css";
+import "./style/wrappedsider.css";
 
-export default function WrappedSider() {
+const WrappedSider: React.FC = () => {
   return (
     <div className="wrappedsider">
       <h2 className="wrapped-sider-header">sider</h2>
@@ -15,4 +15,6 @@ export default function WrappedSider() {
       />
     </div>
   );
-}
+};
+
+export default WrappedSider;

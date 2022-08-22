@@ -4,10 +4,6 @@
   font-size: xx-large;
 }
 
-.login-button {
-  margin: 12px;
-}
-
 .wrapped-header {
   display: grid;
   grid-template-columns: 1fr min-content;
