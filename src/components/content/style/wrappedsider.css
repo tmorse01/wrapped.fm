@@ -1,0 +1,11 @@
+.wrapped-sider-header {
+  color: white;
+  font-family: Arial;
+  font-size: x-large;
+  display: grid;
+}
+
+.wrapped-sider {
+  display: grid;
+  justify-items: center;
+}
