@@ -16,7 +16,7 @@ const WrappedHeader: React.FC = () => {
     token: { colorBgContainer },
   } = theme.useToken();
   return (
-    <div className="wrapped-header" style={{ background: colorBgContainer }}>
+    <div className="wrapped-header">
       <img src={logo} style={{ height: "64px" }} alt="logo" />
       <Menu
         style={{ background: colorBgContainer, width: 200 }}

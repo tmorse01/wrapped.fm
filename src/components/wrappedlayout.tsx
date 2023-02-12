@@ -40,7 +40,7 @@ const App: React.FC = () => {
 
   return (
     <Layout className="App">
-      <Header>
+      <Header style={{ background: colorBgContainer }}>
         <WrappedHeader />
       </Header>
       <Layout>
