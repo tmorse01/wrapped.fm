@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Wrapped.fm",
+  "name": "Spotify analytics tool",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,14 +8,29 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "icons8-spotify-100.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "100x100"
     },
     {
-      "src": "logo512.png",
+      "src": "icons8-spotify-150.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "150x150"
+    },
+    {
+      "src": "icons8-spotify-200.png",
+      "type": "image/png",
+      "sizes": "200x200"
+    },
+    {
+      "src": "icons8-spotify-500.png",
+      "type": "image/png",
+      "sizes": "500x500"
+    },
+    {
+      "src": "icons8-spotify.gif",
+      "type": "image/gif",
+      "sizes": "100x100"
     }
   ],
   "start_url": ".",

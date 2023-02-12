@@ -1,15 +1,22 @@
+import { ConfigProvider, theme } from "antd";
 import React from "react";
-import "./App.css";
-import "antd/dist/antd.min.css";
-
 import WrappedLayout from "./components/wrappedlayout";
 
-function App() {
-  return (
-    <div className="App">
-      <WrappedLayout />
-    </div>
-  );
-}
+import "./App.css";
+
+const App: React.FC = () => (
+  <ConfigProvider
+    theme={{
+      token: {
+        colorPrimary: "#1db954",
+        colorTextBase: "#ffffff",
+        colorBgBase: "#191414",
+      },
+      algorithm: theme.darkAlgorithm,
+    }}
+  >
+    <WrappedLayout />
+  </ConfigProvider>
+);
 
 export default App;

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Button, Modal } from "antd";
 import { LoginOutlined, LogoutOutlined } from "@ant-design/icons";
 import "./style/loginmodal.css";
@@ -38,7 +38,7 @@ const LoginModal = () => {
       </Button>
       <Modal
         title="Login"
-        visible={isModalVisible}
+        open={isModalVisible}
         footer={null}
         onCancel={handleCancel}
       >
